@@ -1,0 +1,36 @@
+### 1) Given a table of random numbers as follows:
+
+numbers table schema
+
+id
+number1
+number2
+Your job is to return table with similar structure and headings, where if the sum of a column is odd, the column shows the minimum value for that column, and when the sum is even, it shows the max value. You must use a case statement.
+
+output table schema
+
+number1
+number2
+
+SOLUTION:
+
+SELECT 
+CASE WHEN SUM(number1)%2=1 THEN min(number1) ELSE max(number1) end as number1,
+CASE WHEN SUM(number2)%2=1 THEN min(number2) ELSE max(number2) end as number2
+from numbers
+
+### 2) You will need to create SELECT statement in conjunction with LIKE.
+
+Please list people which have first_name with at least 6 character long
+
+names table schema
+id
+first_name
+last_name
+results table schema
+first_name
+last_name
+
+SOLUTION: SELECT first_name, last_name
+FROM names
+WHERE first_name LIKE '______%'
