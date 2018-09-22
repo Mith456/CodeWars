@@ -16,8 +16,7 @@ Link: https://www.codewars.com/kata/589cf45835f99b2909000115/train/sql
 
 #### 2.Using LATERAL JOIN To Get Top N per Group
 
-DESCRIPTION OF KATA:
-Given the schema presented below write a query, which uses a LATERAL join, that returns two most viewed posts for every category.
+DESCRIPTION OF KATA: Given the schema presented below write a query, which uses a LATERAL join, that returns two most viewed posts for every category.
 
 Module: Top_n_per_group.sql
 
@@ -30,4 +29,14 @@ DESCRIPTION OF KATA: For this challenge you need to create a RECURSIVE Hierarchi
 Module: Simple_Hierarchical_Structure.sql
 
 Link: https://www.codewars.com/kata/5812a2a2492760dfca000450/train/sql
+
+#### 4. GROUP BY DAY
+
+DESCRIPTION OF KATA: There is an events table used to track different key activities taken on a website. For this task you need to filter the name field to only show "trained" events. Events should be grouped by the day they happened and counted. The description field is used to distinguish which items the events happened on.
+
+Module: Group_by_day.sql
+
+Link: https://www.codewars.com/kata/sql-basics-group-by-day/train/sql
+
+
 
