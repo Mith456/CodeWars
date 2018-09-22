@@ -38,5 +38,14 @@ Module: Group_by_day.sql
 
 Link: https://www.codewars.com/kata/sql-basics-group-by-day/train/sql
 
+#### 5. CREATE FUNCTION DATES
+
+DESCRIPTION OF KATA: For this challenge you need to create a basic Age Calculator function which calculates the age in years on the age field of the peoples table.
+The function should be called agecalculator, it needs to take 1 date and calculate the age in years according to the date NOW and must return an integer.
+
+Module: Create_function_age.sql
+
+Link: https://www.codewars.com/kata/sql-basics-create-a-function-dates/train/sql
+
 
 
